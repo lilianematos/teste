@@ -1,11 +1,11 @@
 # encoding: utf-8
 # !/usr/bin/env ruby
 
-Quando(/^eu estiver na pagina$/) do
+Dado(/^que estou na pagina$/) do
   visit '/examples'
 end
 
-Quando(/^clicar em "([^"]*)"$/) do |link|
+Quando(/^eu clicar em "([^"]*)"$/) do |link|
   click_link(link)
 end
 

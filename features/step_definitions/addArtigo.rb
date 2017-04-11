@@ -1,21 +1,22 @@
-Given(/^I am on the home page$/) do
-  visit 'examples'
+# encoding: utf-8
+# !/usr/bin/env ruby
+
+Dado(/^que eu faça meu login$/) do
+  
 end
 
-Given(/^I am authenticated$/) do
-  fill_in 'user_email', :with => "miriam@hotmail.com"
-  fill_in 'user_password', :with => "1234567"
-  click_button 'Entrar'
+Quando(/^eu pressionar em "([^"]*)"$/) do |link|
+  
 end
 
-When(/^I follw "([^"]*)"$/) do |link|
-  click_on(link)
+Quando(/^selecionar "([^"]*)"$/) do |selec|
+  
 end
 
-When(/^I fill in the fields$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+Quando(/^preencher os campos$/) do
+  
 end
 
-Then(/^I should see the article in the list$/) do
-  pending # Write code here that turns the phrase above into concrete actions
+Entao(/^eu devo ver o artigo na lista$/) do
+  have_content()
 end

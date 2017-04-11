@@ -5,8 +5,8 @@ Funcionalidade: login
     Como usuario
     Quero fazer login
     
-     Cenario: Fazer cadastro
+    Cenario: Fazer login
     Dado que estou na pagina
-    Quando eu clicar em "Entrar"
-    E completar os campos
+    Quando eu preencher os campos
     Então eu devo estar logado na pagina
+    

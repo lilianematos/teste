@@ -1,0 +1,18 @@
+# encoding: utf-8
+# !/usr/bin/env ruby
+
+Quando(/^eu for em "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando(/^escolher "([^"]*)"$/) do |arg1|
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Quando(/^dar um nome a essa pasta$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
+
+Entao(/^eu devo ver a pasta criada$/) do
+  pending # Write code here that turns the phrase above into concrete actions
+end
