@@ -171,7 +171,6 @@ GEM
     rdoc (4.3.0)
     responders (2.2.0)
       railties (>= 4.2.0, < 5.1)
-    ruby (0.1.0)
     sass (3.4.22)
     sass-rails (5.0.6)
       railties (>= 4.0.0, < 6)
@@ -232,7 +231,6 @@ DEPENDENCIES
   rails (= 4.2.5)
   rails_12factor
   ransack
-  ruby
   sass-rails (~> 5.0)
   sdoc (~> 0.4.0)
   spring
